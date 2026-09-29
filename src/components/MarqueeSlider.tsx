@@ -31,8 +31,8 @@ export const MarqueeSlider: React.FC<MarqueeSliderProps> = ({
     }
   };
 
-  // Quadruple items to ensure seamless infinite loop across all display sizes
-  const displayItems = [...items, ...items, ...items, ...items];
+  // Double items to ensure seamless infinite loop for -50% translate3d
+  const displayItems = [...items, ...items];
 
   const animationName = reverse ? 'marqueeScrollRight' : 'marqueeScrollLeft';
 
@@ -67,7 +67,7 @@ export const MarqueeSlider: React.FC<MarqueeSliderProps> = ({
             >
               <img
                 alt={item.title}
-                loading="eager"
+                loading={idx < 2 ? 'eager' : 'lazy'}
                 decoding="async"
                 draggable={false}
                 src={item.img}

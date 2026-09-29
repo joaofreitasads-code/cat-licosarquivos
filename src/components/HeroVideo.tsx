@@ -58,7 +58,7 @@ export const HeroVideo: React.FC = () => {
           src="/videos/vsl.mp4"
           poster="/images/vsl-poster.webp"
           playsInline
-          preload="metadata"
+          preload="none"
           controls={isPlaying}
           onClick={handlePause}
           onEnded={() => setIsPlaying(false)}

@@ -64,7 +64,7 @@ export const TestimonialSlider: React.FC<TestimonialSliderProps> = ({ testimonia
             >
               <img
                 alt={`Depoimento de cliente satisfeito ${t.id}`}
-                loading="eager"
+                loading="lazy"
                 decoding="async"
                 draggable={false}
                 src={t.img}

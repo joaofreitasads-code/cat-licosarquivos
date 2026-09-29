@@ -221,7 +221,7 @@ export default function App() {
           <div className="relative mx-auto max-w-[1100px] rounded-2xl sm:rounded-3xl border border-[rgba(230,181,90,0.35)] bg-[#0d0c10] shadow-[0_25px_80px_rgba(0,0,0,0.95),0_0_60px_rgba(229,188,114,0.16)] overflow-hidden group">
             <img
               alt="Área de Membros Biblioteca da Fé 3D no Computador, Tablet e Celular"
-              loading="eager"
+              loading="lazy"
               decoding="async"
               className="w-full h-auto object-cover block select-none transition-transform duration-700 group-hover:scale-[1.01]"
               src="/images/area-membros-mockup.jpg"
@@ -388,7 +388,7 @@ export default function App() {
             <div className="bonus-item">
               <img
                 alt="Bônus 01 — Guia de Produtos Católicos que Mais Vendem"
-                loading="eager"
+                loading="lazy"
                 decoding="async"
                 src="/images/bonus1.webp"
               />
@@ -407,7 +407,7 @@ export default function App() {
             <div className="bonus-item">
               <img
                 alt="Bônus 02 — Tabela de Preços para Produtos 3D Católicos"
-                loading="eager"
+                loading="lazy"
                 decoding="async"
                 src="/images/bonus2.webp"
               />
@@ -426,7 +426,7 @@ export default function App() {
             <div className="bonus-item">
               <img
                 alt="Bônus 03 — Guia Rápido de Configuração para Impressão Perfeita"
-                loading="eager"
+                loading="lazy"
                 decoding="async"
                 src="/images/bonus3.webp"
               />
@@ -446,7 +446,7 @@ export default function App() {
             <div className="bonus-item">
               <img
                 alt="Bônus 04 — Mockups Prontos para Divulgação"
-                loading="eager"
+                loading="lazy"
                 decoding="async"
                 src="/images/bonus4.webp"
               />
@@ -465,7 +465,7 @@ export default function App() {
             <div className="bonus-item">
               <img
                 alt="Bônus 05 — Guia de Acabamento e Pintura para Peças Católicas"
-                loading="eager"
+                loading="lazy"
                 decoding="async"
                 src="/images/bonus5.webp"
               />
@@ -747,7 +747,7 @@ export default function App() {
               >
                 <img
                   alt="Pack +500 Acervos Católicos STL Completo"
-                  loading="eager"
+                  loading="lazy"
                   decoding="async"
                   src="/images/pack-capa-completo.jpg"
                   style={{
@@ -851,7 +851,7 @@ export default function App() {
             <img
               className="g-seal-img"
               alt="Selo de 7 dias de garantia"
-              loading="eager"
+              loading="lazy"
               decoding="async"
               src="/images/garantia.webp"
             />
