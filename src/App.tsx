@@ -4,6 +4,7 @@ import { MarqueeSlider } from './components/MarqueeSlider.tsx';
 import { TestimonialSlider } from './components/TestimonialSlider.tsx';
 import { LiveToast } from './components/LiveToast.tsx';
 import { BasicPlanModal } from './components/BasicPlanModal.tsx';
+import { trackInitiateCheckout } from './utils/pixel.ts';
 
 export default function App() {
   const [isBasicModalOpen, setIsBasicModalOpen] = useState(false);
@@ -830,6 +831,7 @@ export default function App() {
                 href="https://checkout.wiven.com.br/checkout/cmssaso1r0bw001odhutl03ut?offer=G4ZPAP2"
                 className="btn-complete-plan pulse"
                 id="_lt_2ocbbuja5"
+                onClick={() => trackInitiateCheckout(37.9, 'Plano Completo')}
               >
                 Quero o plano completo
               </a>

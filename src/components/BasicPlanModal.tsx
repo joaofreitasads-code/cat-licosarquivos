@@ -1,4 +1,5 @@
 import React from 'react';
+import { trackInitiateCheckout } from '../utils/pixel.ts';
 
 interface BasicPlanModalProps {
   isOpen: boolean;
@@ -54,7 +55,10 @@ export const BasicPlanModal: React.FC<BasicPlanModalProps> = ({
           <a
             href="https://checkout.wiven.com.br/checkout/cmssbinuv0cf301odisgk4oou?offer=H8IYYC6"
             className="ov-btn green"
-            onClick={onClose}
+            onClick={() => {
+              trackInitiateCheckout(18.9, 'Plano Completo Upsell');
+              onClose();
+            }}
           >
             Sim, quero o completo por R$ 18,90
           </a>
@@ -62,7 +66,10 @@ export const BasicPlanModal: React.FC<BasicPlanModalProps> = ({
           <a
             href="https://checkout.wiven.com.br/checkout/cmssbo7jv0ch601odk1cphgbi?offer=0HNUW3I"
             className="ov-btn red"
-            onClick={onClose}
+            onClick={() => {
+              trackInitiateCheckout(10.9, 'Plano Básico');
+              onClose();
+            }}
           >
             Não, prefiro o básico por R$ 10,90
           </a>
