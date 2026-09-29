@@ -58,7 +58,7 @@ export const HeroVideo: React.FC = () => {
           src="/videos/vsl.mp4"
           poster="/images/vsl-poster.webp"
           playsInline
-          preload="none"
+          preload="metadata"
           controls={isPlaying}
           onClick={handlePause}
           onEnded={() => setIsPlaying(false)}
@@ -70,7 +70,10 @@ export const HeroVideo: React.FC = () => {
             objectFit: 'cover',
             backgroundColor: '#000',
           }}
-        />
+        >
+          <source src="/videos/vsl.mp4" type="video/mp4" />
+          Seu navegador não suporta reprodução de vídeo.
+        </video>
 
         {!isPlaying && (
           <button

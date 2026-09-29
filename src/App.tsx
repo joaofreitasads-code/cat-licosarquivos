@@ -19,10 +19,10 @@ export default function App() {
 
   // Galeria 1: Santos & Anjos
   const gallerySantos = [
-    { title: 'Anjo da Guarda 3D', img: '/thumbnails/anjo-da-guarda.jpg' },
-    { title: 'Imagens de Santos', img: '/thumbnails/imagens-de-santos.jpg' },
-    { title: 'Divino Espírito Santo', img: '/thumbnails/divino-esp-rito-santo.jpg' },
-    { title: 'Nossa Senhora de Fátima', img: '/thumbnails/nossa-senhora-de-f-tima.jpg' },
+    { title: 'Anjo da Guarda 3D', img: '/images/anjo-da-guarda.jpg' },
+    { title: 'Imagens de Santos', img: '/images/imagens-de-santos.jpg' },
+    { title: 'Divino Espírito Santo', img: '/images/divino-esp-rito-santo.jpg' },
+    { title: 'Nossa Senhora de Fátima', img: '/images/nossa-senhora-de-f-tima.jpg' },
     { title: 'Anjo da Guarda', img: '/images/cat2_01.webp' },
     { title: 'Imagens de Santos', img: '/images/cat2_05.webp' },
     { title: 'São Miguel com Espada', img: '/images/cat2_08.webp' },
@@ -31,26 +31,26 @@ export default function App() {
 
   // Galeria 2: Crucifixos
   const galleryCrucifixos = [
-    { title: 'Crucifixos Decorativos', img: '/thumbnails/crucifixos-decorativos-e-medalh-es.jpg' },
-    { title: 'Jesus com a Cruz', img: '/thumbnails/jesus-com-a-cruz.jpg' },
-    { title: 'Jesus Cross', img: '/thumbnails/jesus-cross.jpg' },
-    { title: 'Jesus Crucifixion', img: '/thumbnails/jesus-crucifixion.jpg' },
-    { title: 'Crucifixo Clássico', img: '/thumbnails/crucifixo-modelo-1.png' },
-    { title: 'Crucifixo Altar', img: '/thumbnails/crucifixo-modelo-2.png' },
-    { title: 'Crucifixo Sagrada Cruz', img: '/thumbnails/crucifixo-modelo-5.png' },
-    { title: 'Medalhão Dourado', img: '/thumbnails/crucifixo-modelo-7.png' },
+    { title: 'Crucifixos Decorativos', img: '/images/crucifixos-decorativos-e-medalh-es.jpg' },
+    { title: 'Jesus com a Cruz', img: '/images/jesus-com-a-cruz.jpg' },
+    { title: 'Jesus Cross', img: '/images/jesus-cross.jpg' },
+    { title: 'Jesus Crucifixion', img: '/images/jesus-crucifixion.jpg' },
+    { title: 'Crucifixo Clássico', img: '/images/crucifixo-modelo-1.png' },
+    { title: 'Crucifixo Altar', img: '/images/crucifixo-modelo-2.png' },
+    { title: 'Crucifixo Sagrada Cruz', img: '/images/crucifixo-modelo-5.png' },
+    { title: 'Medalhão Dourado', img: '/images/crucifixo-modelo-7.png' },
   ];
 
   // Galeria 3: Presépios & Relevos
   const galleryPresepios = [
-    { title: 'Presépio Sagrada Família', img: '/thumbnails/presepio-decorativo-1.jpg' },
-    { title: 'Presépio Gruta de Belém', img: '/thumbnails/presepio-decorativo-2.jpg' },
-    { title: 'Presépio Estrela Guia', img: '/thumbnails/presepio-decorativo-3.jpg' },
-    { title: 'Quadro em Relevo Crucifixo', img: '/thumbnails/quadro-relevo-1.jpg' },
-    { title: 'Quadro em Relevo Sagrado Coração', img: '/thumbnails/quadro-relevo-2.jpg' },
-    { title: 'Quadro em Relevo Santa Maria', img: '/thumbnails/quadro-relevo-3.jpg' },
-    { title: 'Arte Sacra em Relevo', img: '/thumbnails/quadro-relevo-5.jpg' },
-    { title: 'Quadro em Relevo Presença de Cristo', img: '/thumbnails/quadro-relevo-6.jpg' },
+    { title: 'Presépio Sagrada Família', img: '/images/presepio-decorativo-1.jpg' },
+    { title: 'Presépio Gruta de Belém', img: '/images/presepio-decorativo-2.jpg' },
+    { title: 'Presépio Estrela Guia', img: '/images/presepio-decorativo-3.jpg' },
+    { title: 'Quadro em Relevo Crucifixo', img: '/images/quadro-relevo-1.jpg' },
+    { title: 'Quadro em Relevo Sagrado Coração', img: '/images/quadro-relevo-2.jpg' },
+    { title: 'Quadro em Relevo Santa Maria', img: '/images/quadro-relevo-3.jpg' },
+    { title: 'Arte Sacra em Relevo', img: '/images/quadro-relevo-5.jpg' },
+    { title: 'Quadro em Relevo Presença de Cristo', img: '/images/quadro-relevo-6.jpg' },
   ];
 
   // Luminárias 3D

@@ -72,14 +72,6 @@ export const MarqueeSlider: React.FC<MarqueeSliderProps> = ({
                 draggable={false}
                 src={item.img}
                 className="w-full h-full object-cover block select-none pointer-events-none"
-                onError={(e) => {
-                  const target = e.currentTarget;
-                  if (target.src.includes('/thumbnails/')) {
-                    target.src = target.src.replace('/thumbnails/', '/images/');
-                  } else if (target.src.includes('/images/')) {
-                    target.src = target.src.replace('/images/', '/thumbnails/');
-                  }
-                }}
               />
             </div>
           ))}
